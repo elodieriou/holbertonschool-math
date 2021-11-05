@@ -4,7 +4,7 @@
 /**
  * display_complex_number - function that displays the complex numbers
  *
- * @c: the complex number
+ * @c: the complex numbers
  *
  * Return: Nothing
  */
