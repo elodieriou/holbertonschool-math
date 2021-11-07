@@ -9,7 +9,9 @@
  */
 complex conjugate(complex c)
 {
-	c.im = -1 * c.im;
-	c.re = c.re;
-	return (c);
+	complex conj;
+
+	conj.im = -1 * c.im;
+	conj.re = c.re;
+	return (conj);
 }
