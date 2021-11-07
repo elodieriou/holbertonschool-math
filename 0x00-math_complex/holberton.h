@@ -1,6 +1,7 @@
 #ifndef DEF_MATHCOMPLEX
 #define DEF_MATHCOMPLEX
-
+#include <stdio.h>
+#include <math.h>
 /**
  * struct complex - Struct of complex numbers
  *
@@ -13,4 +14,5 @@ typedef struct complex {
 } complex;
 void display_complex_number(complex c);
 complex conjugate(complex c);
+double modulus(complex c);
 #endif
