@@ -2,9 +2,7 @@
 
 /**
  * conjugate - function that returns the conjugate of a given complex number
- *
  * @c: a complex number
- *
  * Return: a conjugate of a complex number
  */
 complex conjugate(complex c)
